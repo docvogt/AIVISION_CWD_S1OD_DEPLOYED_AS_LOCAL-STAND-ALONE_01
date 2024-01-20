@@ -8,6 +8,11 @@
 
 # HISTORY/REVISIONS
 #======================================================================================
+# 2023Nov05 mcvogt 
+# updates to code to rename .ONNX model folder from long cryptic auto-generated name to something
+# meaningful to humans, update folder name, then update .py code to include that new folder name in example calls to local models.
+# (venv-python3113-datascience) C:\Development\GitHub\AIVisionExercises>python predictONNXS1OD.py CWDS1OD.ONNX/model.onnx TestImageHealthyDeerDayBuck.jpg
+
 # 2023Oct17 mcvogt
 # follow up and documenting.  migrating now to a VM hosted by VirtualBox under Wind11Pro
 # Win11Pro(host)\VirtualBox7.0\Ubuntu20.04LTS(guest)\Python3.11.03\this Script
